@@ -1,0 +1,13 @@
+<h2> <%= @fly["name"] %> </h2>
+
+<h3> Family :<%= @fly["family"] %> </h3>
+<%  unless @fly["image"].nil? || @fly["image"].empty? %>
+<img src="<%= @fly["image"] %>" alt="<%= @fly["name"]%>  class="feature">
+<% end %>
+
+<div>
+    <a href="/flies/<%= params["id"]%>/delete"> Delete </a>
+    <a href="/flies/<%= params["id"]%>/edit"> Edit </a>
+</div>
+
+

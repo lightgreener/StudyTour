@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsIntro</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <nav>
+      <a href='/'>home</a>
+      <a href='/hello'>hello</a>
+      <a href='/goodbye'>goodbye</a>
+      <a href='/funny'>funny</a>
+      <a href='/auto'>auto</a>
+    
+    </nav>
+    <%= yield %>
+  </body>
+</html>

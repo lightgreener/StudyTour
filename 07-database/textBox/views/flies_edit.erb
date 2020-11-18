@@ -1,0 +1,20 @@
+#  copy whole thing from flies_new page
+
+<h2>Edit butterflies </h2>
+<!-- 在这里添加 id ，我们是更新，不是创建，所以更新已有的 -->
+<form action="/flies/<%= @fly["id"]%>" method="post">   <!-- # create file -->
+<label>
+    Name:
+    <input name="name" placeholder="animal" value="<%= @fly["name"]%>" required>
+</label>
+<label>
+    Family:
+    <input name="family" placeholder="animal family" required value="<%= @fly["family"]%>">
+</label>
+<label>
+    Image:
+    <input type="url" name="image" placeholder="http://..." value="<%= @fly["image"]%>">
+</label>
+<button> Edit Butterfly </button>
+
+</form>

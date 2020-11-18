@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <%- include('partials/head.ejs')  %>
+    <body>
+        <%- include('partials/nav')  %>
+        <form action="/info">  <!-- 这里不能用 info.ejs -->
+            <label>
+                Stock code:
+                <input type="search" name="symbol" placeholder="AAPL" required>
+            </label>
+            <button> Find</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+-- c   insert
+-- r   select
+-- u   update
+-- d    delete

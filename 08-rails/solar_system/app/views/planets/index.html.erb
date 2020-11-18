@@ -1,0 +1,11 @@
+<h2> it is planets </h2>
+
+<% @planets.each do |planet|%>
+    <p>
+    <%= link_to planet[:name], planet_path(planet.id)%>
+    <%= planet[:name]%>
+    has
+    <%= pluralize planet[:moons], 'moon'%>
+    
+    </p>
+ <% end %>

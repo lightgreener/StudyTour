@@ -1,0 +1,321 @@
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/henryzhang/.rvm/rubies/ruby-2.7.1/lib/ruby/gems/2.7.0/gems/rake-13.0.1/lib/rake/task.rb:281
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mPlanet Create (0.3ms)[0m  [1m[32mINSERT INTO "planets" ("name", "orbit", "moons") VALUES (?, ?, ?)[0m  [["name", "Earth"], ["orbit", 365.25], ["moons", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mPlanet Create (0.4ms)[0m  [1m[32mINSERT INTO "planets" ("name", "orbit", "moons") VALUES (?, ?, ?)[0m  [["name", "Venus"], ["orbit", 283.0], ["moons", 0]]
+  ↳ db/seeds.rb:21
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mPlanet Create (0.5ms)[0m  [1m[32mINSERT INTO "planets" ("name", "orbit", "moons") VALUES (?, ?, ?)[0m  [["name", "Mars"], ["orbit", 511.0], ["moons", 10]]
+  ↳ db/seeds.rb:22
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+Started GET "/" for ::1 at 2020-10-13 12:37:59 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/henryzhang/.rvm/gems/ruby-2.7.1/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/henryzhang/.rvm/gems/ruby-2.7.1/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (14.2ms)
+Completed 200 OK in 45ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 12:38:07 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  Rendered planets/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 484ms (Views: 481.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 12:41:04 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (1.1ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (40.2ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 2.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <h2> it is planets </h2>
+    2: 
+    3: <% @planets.each do |planet|%>
+    4:     <p><%= @planet.name%></p>
+    5:  <% end %>
+  
+app/views/planets/index.html.erb:4:in `block in _app_views_planets_index_html_erb__1209841657564969144_11760'
+app/views/planets/index.html.erb:3:in `_app_views_planets_index_html_erb__1209841657564969144_11760'
+Started GET "/planets" for ::1 at 2020-10-13 12:42:33 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 38ms (Views: 35.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 12:44:46 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.7ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 36ms (Views: 32.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 12:44:50 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 12:49:25 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 12:54:37 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (182.4ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `planets' for #<#<Class:0x00007fb5b0824e08>:0x00007fb5b081f4a8>
+Did you mean?  planet
+               @planets):
+    2: 
+    3: <% @planets.each do |planet|%>
+    4:     <p>
+    5:     <%= link_to planets[:name], planet_path(planets.id)%>
+    6:     <%= planet[:name]%>
+    7:     has
+    8:     <%= pluralize planet[:moons], 'moon'%>
+  
+app/views/planets/index.html.erb:5:in `block in _app_views_planets_index_html_erb__1209841657564969144_13720'
+app/views/planets/index.html.erb:3:in `_app_views_planets_index_html_erb__1209841657564969144_13720'
+Started GET "/planets" for ::1 at 2020-10-13 12:55:21 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (244.4ms)
+Completed 500 Internal Server Error in 248ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `planets' for #<#<Class:0x00007fb5b0824e08>:0x00007fb5a7eeb1c8>
+Did you mean?  planet
+               @planets):
+    2: 
+    3: <% @planets.each do |planet|%>
+    4:     <p>
+    5:     <%= link_to planets[:name], planet_path(planet.id)%>
+    6:     <%= planet[:name]%>
+    7:     has
+    8:     <%= pluralize planet[:moons], 'moon'%>
+  
+app/views/planets/index.html.erb:5:in `block in _app_views_planets_index_html_erb__1209841657564969144_14340'
+app/views/planets/index.html.erb:3:in `_app_views_planets_index_html_erb__1209841657564969144_14340'
+Started GET "/planets" for ::1 at 2020-10-13 12:55:23 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (143.2ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `planets' for #<#<Class:0x00007fb5b0824e08>:0x00007fb5b0075b30>
+Did you mean?  planet
+               @planets):
+    2: 
+    3: <% @planets.each do |planet|%>
+    4:     <p>
+    5:     <%= link_to planets[:name], planet_path(planet.id)%>
+    6:     <%= planet[:name]%>
+    7:     has
+    8:     <%= pluralize planet[:moons], 'moon'%>
+  
+app/views/planets/index.html.erb:5:in `block in _app_views_planets_index_html_erb__1209841657564969144_14880'
+app/views/planets/index.html.erb:3:in `_app_views_planets_index_html_erb__1209841657564969144_14880'
+Started GET "/planets" for ::1 at 2020-10-13 12:55:44 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.2ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 13:00:04 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.6ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 29ms (Views: 25.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 13:00:09 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.9ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 13:00:53 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/1" for ::1 at 2020-10-13 13:01:09 +1100
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:9
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 58ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-10-13 15:41:57 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/henryzhang/.rvm/gems/ruby-2.7.1/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/henryzhang/.rvm/gems/ruby-2.7.1/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (10.8ms)
+Completed 200 OK in 60ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets" for ::1 at 2020-10-13 15:42:07 +1100
+Processing by PlanetsController#index as HTML
+  Rendering planets/index.html.erb within layouts/application
+  [1m[36mPlanet Load (2.4ms)[0m  [1m[34mSELECT "planets".* FROM "planets"[0m
+  ↳ app/views/planets/index.html.erb:3
+  Rendered planets/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 424ms (Views: 367.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/planets/1" for ::1 at 2020-10-13 15:42:10 +1100
+Processing by PlanetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPlanet Load (0.3ms)[0m  [1m[34mSELECT  "planets".* FROM "planets" WHERE "planets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/planets_controller.rb:9
+  Rendering planets/show.html.erb within layouts/application
+  Rendered planets/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 37ms (Views: 28.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/planets/new" for ::1 at 2020-10-13 15:42:28 +1100
+Processing by PlanetsController#new as HTML
+  Rendering planets/new.html.erb within layouts/application
+  Rendered planets/new.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"planets"}, missing required keys: [:id]):
+    1: <h2> 
+    2: <form action= "<%= planet_path %>" method ="post">
+    3: <label>
+    4:     Name:
+    5:     <input name="name" requestd>
+  
+app/views/planets/new.html.erb:2:in `_app_views_planets_new_html_erb__2954750155125966281_11620'
+Started GET "/planets/new" for ::1 at 2020-10-13 15:43:33 +1100
+Processing by PlanetsController#new as HTML
+  Rendering planets/new.html.erb within layouts/application
+  Rendered planets/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/new" for ::1 at 2020-10-13 15:55:19 +1100
+  
+SyntaxError (/Users/henryzhang/Projects/classwork/08-rails/solar_system/app/controllers/planets_controller.rb:17: syntax error, unexpected local variable or method, expecting `end'
+...age], :orbit => params[:orbit]k, :mass => params[:mass],:moo...
+...                              ^
+/Users/henryzhang/Projects/classwork/08-rails/solar_system/app/controllers/planets_controller.rb:17: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+...it => params[:orbit]k, :mass => params[:mass],:moons => para...
+...                             ^~
+/Users/henryzhang/Projects/classwork/08-rails/solar_system/app/controllers/planets_controller.rb:17: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+...mass => params[:mass],:moons => params[:moons]
+...                             ^~
+):
+  
+app/controllers/planets_controller.rb:17: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/planets_controller.rb:17: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+app/controllers/planets_controller.rb:17: syntax error, unexpected =>, expecting '.' or &. or :: or '['
+Started GET "/planets/new" for ::1 at 2020-10-13 15:59:54 +1100
+Processing by PlanetsController#new as HTML
+  Rendering planets/new.html.erb within layouts/application
+  Rendered planets/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 262ms (Views: 259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/new" for ::1 at 2020-10-13 16:01:12 +1100
+Processing by PlanetsController#new as HTML
+  Rendering planets/new.html.erb within layouts/application
+  Rendered planets/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/planets/new" for ::1 at 2020-10-13 16:02:16 +1100
+Processing by PlanetsController#new as HTML
+  Rendering planets/new.html.erb within layouts/application
+  Rendered planets/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+

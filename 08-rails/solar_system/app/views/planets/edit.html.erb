@@ -1,0 +1,36 @@
+<h2> Edit Planet </h2>
+<form action= "<%= planets_path(@planet.ed) %>" method ="post">
+<label>
+    Name:
+    <input name="name" requestd value="<%= @planet[:name]%>">
+</label>
+
+<label>
+Image:
+<input type ="url" name="image" equestd value="<%= @planet[:image]%>">
+</label>
+
+<label>
+Orbit:
+<input type ="number" name="orbit" equestd value="<%= @planet[:orbit]%>">
+</label>
+
+
+<label>
+Diameter:
+<input type ="number" name="diameter" >
+</label>
+
+<label>
+Mass:
+<input type ="number" name="mass" >
+</label>
+
+<label>
+moons:
+<input type ="number" name="moons" >
+</label>
+<button> Create </button>
+
+</form>
+</h2>

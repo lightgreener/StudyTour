@@ -1,0 +1,29 @@
+<h2> new Artist</h2>
+
+<%= render :partial => 'form' %>
+
+<%=  form_for @artist do |f|%>
+    <div class="form-group">
+        <%= f.label :name %>
+        <%= f.text_field :name, :required =>true, :autofocus => true, :class => 'form-control' %>
+    </div>
+
+    <div class="form-group">
+        <%= f.label :nationality %>
+        <%= f.text_field :nationality, :class => 'form-control' %>
+    </div>
+
+    <div class="form-group">
+    <%= f.label :dob, 'Date of birth' %>
+    <%= f.text_field :dob, :placeholder => 'YYYY-MM-DD', :class => 'form-control'%>
+     </div>
+    <div class="form-group">
+    <%= f.label :period %>
+    <%= f.text_field :period, :class => 'form-control' %>
+     </div>
+    <div class="form-group">
+    <%= f.label :image %>
+    <%= f.url_field :image, :class => 'form-control' %>
+     </div>
+    <%= f.submit "Sing up!", :class=>"btn btn-primary"%>
+<% end %>

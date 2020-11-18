@@ -1,0 +1,9 @@
+<h2> All butterflies</h2>
+
+<% @flies.each do |fly|%>
+    <p>
+    <a href="/flies/<%= fly["id"] %>">
+<%= fly["name"] %>  <!-- 这里不能用：，因为在sql中没有 -->
+    </a>
+    </p>
+<% end %>

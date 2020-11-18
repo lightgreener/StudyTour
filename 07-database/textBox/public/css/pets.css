@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(97, 50, 205);
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+}
+nav a {
+    color: white;
+}
+.feature {
+    max-width: 100%;
+}

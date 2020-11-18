@@ -1,0 +1,22 @@
+<p>  Online calculator </p>
+
+<form action="/result"> <!-- 这里action就是把form的结果给到reult 页面 -->
+                        <!-- 这里有一个method=“get”的默认， 这个就是为什么我们一直写 在main。rb 文件里写 get 的原因，当然如果该成post， 就是他一个隐藏的信息 -->
+    <label>
+        first number:
+        <input type="number" placeholder="00" name="x">
+        second number:
+        <input type="number" placeholder="00" name="y">        
+    </label>
+
+    <label>
+        operator:
+        <!--下面的用 text， 是默认的所以不写 -->
+        <input placeholder="+ - * /" name="operator">
+    </label>
+
+    <button> Calculate </button>
+
+
+
+</form>

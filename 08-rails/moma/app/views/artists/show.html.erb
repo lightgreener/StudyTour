@@ -1,0 +1,19 @@
+
+<h2> <%= @artist.name %> </h2>
+
+<% image_tag @artist.image, :class => 'feature' if @artist.image.present?  %>
+
+    <ul>
+    <li> Name: <%= link_to @artist.name, artist_path(@artist.id) %></li>
+    <li> Nationality: <%=@artist.nationality %></li>
+        <% if @artist.dob.present? %>
+            <li>DOB: <%=@artist.dob.strftime '%A, %B %e, %Y' %></li>
+        <% end %>
+    <li> Period: <%=@artist.name %></li>
+    </ul>
+
+
+<div class="controls">
+<%=  link_to "Edit #{@artist.name}",edit_artist_path(@artist) %>
+<%= button_to "Delete #{ @artist.name}",@artist, :method =>'delete', :data => {:confirm => 'Are you sure?'}%>
+</div>
