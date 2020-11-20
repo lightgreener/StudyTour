@@ -2,19 +2,17 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const VocabSchema = new Schema(
-    {
-        english:{
-            type: String,
-            require: 'English word required'
-        },
-        german: {
-            type: String,
-            require: 'German word required'
-        }
+  {
+    english: {
+      type: String,
+      required: 'English word cannot be blank'
     },
-    {
-        collection: 'vocab'
+    german: {
+      type: String,
+      required: 'German word cannot be blank'
     }
+  },
+  { collection: 'vocab' }
 );
 
-module.exports = mongoose.model('Vocab',VocabSchema);
+module.exports = mongoose.model('Vocab', VocabSchema);
